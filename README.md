@@ -63,14 +63,11 @@ git clone https://huggingface.co/MBZUAI/LaMini-T5-738M
 Step 2: Clone the Project Repository
 Next, clone the DocuMate project repository to your local machine:
 
-bash
-Copy code
 git clone <repository_url>
 Step 3: Create Necessary Folders
 Navigate into the project directory and create the following folders for storing embeddings, models, and documents:
 
-bash
-Copy code
+
 mkdir db
 mkdir models
 mkdir docs
