@@ -15,32 +15,27 @@ DocuMate is a smart PDF query platform designed to help users upload PDFs and ex
 ### Step 1: Clone the Hugging Face LaMini-T5-738M Model
 To use the model for question answering, first clone the LaMini-T5-738M repository from Hugging Face:
 
-```bash
-git clone https://huggingface.co/MBZUAI/LaMini-T5-738M
+git clone https://huggingface.co/MBZUAI/LaMini-T5-738M  
 
-Step 2: Clone the Project Repository
+### Step 2: Clone the Project Repository
 Next, clone the DocuMate project repository to your local machine:
 git clone <repository_url>
 
-Step 3: Create Necessary Folders
+### Step 3: Create Necessary Folders
 Navigate into the project directory and create the following folders for storing embeddings, models, and documents:
 mkdir db
 mkdir models
 mkdir docs
 
-Step 4: Add Model Files
+### Step 4: Add Model Files
 After cloning the Hugging Face LaMini-T5-738M model, move the model files into the models folder within the project.
 
-Usage
-Step 1: Run the Ingestion Script
+### Usage
+### Step 1: Run the Ingestion Script
 Run the ingest.py script to process and prepare the PDF data for querying:
 python ingest.py
 
 
-Here’s the full README.md file based on the information you provided:
-
-markdown
-Copy code
 # DocuMate - Smart PDF Query Platform 🦜📄
 ### Using Open Source Language Models
 
@@ -63,11 +58,14 @@ git clone https://huggingface.co/MBZUAI/LaMini-T5-738M
 Step 2: Clone the Project Repository
 Next, clone the DocuMate project repository to your local machine:
 
+bash
+Copy code
 git clone <repository_url>
 Step 3: Create Necessary Folders
 Navigate into the project directory and create the following folders for storing embeddings, models, and documents:
 
-
+bash
+Copy code
 mkdir db
 mkdir models
 mkdir docs
@@ -89,4 +87,4 @@ References and Acknowledgments
 Special thanks to AI Anytime for inspiration and insights.
 
 License
-This project is open-source and is available under the MIT License.```
+This project is open-source and is available under the MIT License.
